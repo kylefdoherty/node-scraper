@@ -1,0 +1,19 @@
+{
+  "name": "node-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "cheerio": "^0.22.0",
+    "fs": "^0.0.1-security",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
